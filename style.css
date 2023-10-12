@@ -1,0 +1,486 @@
+header{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+a, nav{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+} 
+
+a:hover{
+    color:white;
+    box-shadow: 1px 1px 8px 8px white;
+    transition: 0.5s linear;
+    font-size: 35px;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    
+}
+h4{
+   
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 3px 1px 0 darkred,
+    3px 1px 40px darkred;
+    border: 2px solid white;
+    background-color: black;
+    box-shadow: 2px 2px 20px 20px red;
+
+}
+
+
+
+.Mafia{
+    color: IndianRed;
+    text-shadow: 3px 1px 0 darkred;
+}
+
+.mafia2 {
+    text-align: right; /* Вирівнює текст праворуч */
+    font-size: 10px;
+    margin: 0; /* За
+    бирає маржу, яка може бути за замовчуванням */
+}
+
+
+.mafia:hover{
+    border: 3px solid red;
+    box-shadow: 1px 1px 10px 10px red;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    transition: 1s ease-out;
+}
+
+.mafia img{
+    display: flex;
+    width: 220px;
+    height: 300px;
+    justify-content: flex-end;
+    text-align: left;
+}
+
+.mafia {
+    display: flex;
+}
+
+
+.mafia img {
+    float: left; 
+    margin-right: 10px; 
+}
+
+.mafia2 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.skyrim img{
+    display: flex;
+    width: 220px;
+    height: 300px;
+    justify-content: flex-end;
+    text-align: left;
+}
+
+.skyrim{
+    display: flex;
+}
+.skyrim{
+    text-align: right; /* Вирівнює текст праворуч */
+    font-size: 10px;
+    margin: 0;
+}
+
+
+.skyrim {
+    font-size: 16px;
+    text-align: start;
+}
+
+.skyrim2 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.skyrim:hover{
+    border: 3px solid #2F78B3;
+    box-shadow: 1px 1px 10px 10px #2F78B3;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    transition: 1s ease-out;
+}
+
+.skyrim img{
+    display: flex;
+    width: 220px;
+    height: 300px;
+    justify-content: flex-end;
+    text-align: left;
+}
+
+h3{
+    text-align: center;
+    color: #0A4574;
+    font-size: 30px;
+    text-shadow: 3px 1px 0 #2F78B3,
+    3px 1px 40px #2F78B3;
+    border: 2px solid white;
+    background-color: black;
+    box-shadow: 2px 2px 20px 20px #2F78B3;
+}
+
+
+
+.farcry{
+    text-align: center;
+    color: #208D17;
+    font-size: 30px;
+    text-shadow: 3px 1px 0 #208D17,
+    3px 1px 40px #208D17;
+    border: 2px solid white;
+    background-color: black;
+    box-shadow: 2px 2px 20px 20px #208D17;
+}
+
+.farcry1{
+    text-align: center;
+    font-size: 13px;
+    margin: 0;
+}
+.farcry1{
+    display: flex;
+}
+
+.farcry1 img{
+    display: flex;
+    width: 250px;
+    height: 380px;
+    justify-content: flex-end;
+    text-align: left;
+    float: right; 
+    margin-right: 10px; 
+    margin: 0;
+}
+
+.farcry1:hover{
+    border: 3px solid #208D17;
+    box-shadow: 1px 1px 15px 10px #208D17;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    transition: 1s ease-out;
+}
+
+.gta{
+    text-align: center;
+    color: #DAA50F;
+    font-size: 30px;
+    text-shadow: 3px 1px 0 #DAA50F,
+    3px 1px 40px #DAA50F;
+    border: 2px solid white;
+    background-color: black;
+    box-shadow: 2px 2px 20px 20px #DAA50F;
+}
+
+.gta1 img{
+    display: flex;
+    width: 250px;
+    height: 320px;
+    justify-content: flex-end;
+    text-align: left;
+    float: right; 
+    margin-right: 10px; 
+    margin: 0;
+}
+
+.gta1{
+    display: flex;
+}
+
+.gta1{
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+}
+
+.gta1:hover{
+    border: 3px solid #DAA50F;
+    box-shadow: 1px 1px 15px 8px #DAA50F;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    transition: 1s ease-out;
+}
+
+.dark{
+    text-align: center;
+    color: #6E6E6E;
+    font-size: 30px;
+    text-shadow: 3px 1px 0 #6E6E6E,
+    3px 1px 40px #6E6E6E;
+    border: 2px solid white;
+    background-color: black;
+    box-shadow: 2px 2px 20px 20px #6E6E6E;
+}
+
+.dark1{
+    font-size: 13px;
+    text-align: center;
+    margin: 0px;
+    display: flex;
+}
+
+.dark1 img{
+    display: flex;
+    width: 200px;
+    height: 275px;
+    justify-content: flex-end;
+    text-align: left;
+    float: left; 
+    margin-right: 10px; 
+    margin: 0;
+}
+
+.dark1:hover{
+    border: 3px solid #6E6E6E;
+    box-shadow: 1px 1px 15px 10px #6E6E6E;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    transition: 1s ease-out;
+}
+
+.witcher{
+    text-align: center;
+    color: #CCFFFC;
+    font-size: 30px;
+    text-shadow: 3px 1px 0 #CCFFFC,
+    3px 1px 40px #CCFFFC;
+    border: 2px solid white;
+    background-color: black;
+    box-shadow: 2px 2px 20px 20px #CCFFFC;
+}
+
+.witcher1 img{
+    display: flex;
+    width: 200px;
+    height: 285px;
+    justify-content: flex-end;
+    text-align: left;
+    float: left; 
+    margin-right: 10px; 
+    margin: 0;
+}
+
+.witcher1{
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+    display: flex;
+}
+
+.witcher1:hover{
+    border: 3px solid #CCFFFC;
+    box-shadow: 1px 1px 15px 10px orange;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    transition: 1s ease-out;
+}
+
+.uncharted{
+    text-align: center;
+    color: #5667D5;
+    font-size: 30px;
+    text-shadow: 3px 1px 0 #5667D5,
+    3px 1px 40px #5667D5;
+    border: 2px solid white;
+    background-color: black;
+    box-shadow: 2px 2px 20px 20px #5667D5;
+}
+
+.uncharted1 img{
+   display: flex;
+    width: 250px;
+    height: 320px;
+    justify-content: flex-end;
+    text-align: left;
+    float: right; 
+    margin-right: 10px; 
+    margin: 0; 
+}
+
+.uncharted1{
+    text-align: center;
+    margin: 0px;
+    font-size: 15px;
+    display: flex;
+}
+
+.uncharted1:hover{
+    border: 3px solid #5667D5;
+    box-shadow: 1px 1px 15px 10px #5667D5;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    transition: 1s ease-out;
+}
+
+.zelda{
+    text-align: center;
+    color: #E3E387;
+    font-size: 30px;
+    text-shadow: 3px 1px 0 #E3E387,
+    3px 1px 40px #E3E387;
+    border: 2px solid white;
+    background-color: black;
+    box-shadow: 2px 2px 20px 20px #E3E387;
+}
+
+.zelda1 img{
+   display: flex;
+    width: 250px;
+    height: 320px;
+    justify-content: flex-end;
+    text-align: left;
+    float: right; 
+    margin-right: 10px; 
+    margin: 0; 
+}
+
+.zelda1{
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    display: flex;
+}
+
+.zelda1:hover{
+    border: 3px solid #E3E387;
+    box-shadow: 1px 1px 15px 10px #E3E387;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    transition: 1s ease-out;
+}
+
+.rdr{
+    color: #6C0000;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 3px 1px 0 #6C0000,
+    3px 1px 40px #6C0000;
+    border: 2px solid white;
+    background-color: black;
+    box-shadow: 2px 2px 20px 20px #6C0000;
+}
+
+.rdr2 img{
+    display: flex;
+    width: 250px;
+    height: 320px;
+    justify-content: flex-end;
+    text-align: left;
+    float: right; 
+    margin-right: 10px; 
+    margin: 0;
+}
+
+.rdr2{
+    text-align: center;
+    font-size: 17px;
+    margin: 0;
+    display: flex;
+}
+
+.rdr2:hover{
+    border: 3px solid #6C0000;
+    box-shadow: 1px 1px 15px 10px #6C0000;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    transition: 1s ease-out;
+}
+
+.metro{
+    color: #D0EEEF;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 3px 1px 0 #A0DFE1,
+    3px 1px 40px #B7D5D6;
+    border: 2px solid white;
+    background-color: black;
+    box-shadow: 2px 2px 20px 20px #B7D5D6;
+}
+
+.metro1 img{
+    display: flex;
+    width: 250px;
+    height: 290px;
+    justify-content: flex-end;
+    text-align: left;
+    float: right; 
+    margin-right: 10px; 
+    margin: 0;
+}
+
+.metro1{
+    text-align: center;
+    font-size: 17px;
+    margin: 0;
+    display: flex;
+}
+
+.metro1:hover{
+    border: 3px solid #B7D5D6;
+    box-shadow: 1px 1px 15px 10px #B7D5D6;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    transition: 1s ease-out;
+}
+
+footer{
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+    
+}
+
+
+.footertext{
+    font-size: 20px;
+    margin-bottom: 100px;
+
+}
+
+h6{
+    text-align: center ;
+    padding-top: -1px;
+    font-size: 30px;
+}
